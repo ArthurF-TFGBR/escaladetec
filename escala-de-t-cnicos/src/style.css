@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.day-name {
+    font-weight: bold;
+    text-align: center;
+}
+
+#calendar div {
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-column {
+    flex: 1;
+}
+
+.employee-column h3 {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.employee-column div {
+    padding: 2px 0;
+    text-align: center;
+}

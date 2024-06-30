@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Escala de Técnicos</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escala de Funcionários</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <h1>Escala de Funcionários</h1>
+    <div id="controls">
+        <label for="month">Mês:</label>
+        <select id="month"></select>
+        <label for="year">Ano:</label>
+        <select id="year"></select>
+    </div>
+    <div id="calendar-header"></div>
+    <div id="calendar">
+        <div class="day-name">Dom</div>
+        <div class="day-name">Seg</div>
+        <div class="day-name">Ter</div>
+        <div class="day-name">Qua</div>
+        <div class="day-name">Qui</div>
+        <div class="day-name">Sex</div>
+        <div class="day-name">Sáb</div>
+    </div>
+    <div id="employee-entry">
+        <h2>Adicionar Funcionários</h2>
+        <form id="employee-form">
+            <label for="day">Dia:</label>
+            <input type="number" id="day" min="1" max="31" required>
+            <label for="employee1">Funcionário RM 1:</label>
+            <input type="text" id="employee1" required>
+            <label for="employee2">Funcionário RM 2:</label>
+            <input type="text" id="employee2" required>
+            <label for="employee3">Funcionário RM 3:</label>
+            <input type="text" id="employee3" required>
+            <label for="employee4">Funcionário TC 1:</label>
+            <input type="text" id="employee4" required>
+            <label for="employee5">Funcionário TC 2:</label>
+            <input type="text" id="employee5" required>
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+    <button id="export-button">Exportar Calendário</button>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
